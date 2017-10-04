@@ -13,9 +13,9 @@ class sessionmanager
 		$this->redis = new Redis();
 		$this->redis->connect('10.116.19.14',6400);
 		$reval = session_set_save_handler(
-			array($this,"open"), 
-			array($this,"close"),
-			array($this,"read"),
+	            array($this,"open"), 
+		    array($this,"close"),
+		    array($this,"read"),
 		    array($this,"write"),
 		    array($this,"destroy"),
 		    array($this,"gc"))
