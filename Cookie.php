@@ -1,5 +1,5 @@
 # Session-Cookie
-//利用Cookie防止在1分钟内多次提交...
+//  利用Cookie防止在1分钟内多次提交...
 
 <script type="text/javascript">
   function SetCookie (name,value) 
