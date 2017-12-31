@@ -6,7 +6,7 @@
   {
     var Days = 30;
     var exp = new Date ();
-    exp.setTime (exp.getTime() + 60*100); //过期时间为1分钟.
+    exp.setTime (exp.getTime() + 60*100); //  过期时间为1分钟.
     document.cookie = name + "=" + escape(value)+ ";expires=" + exp.toGMTString();
   }
   function submit ()
