@@ -1,4 +1,4 @@
-# Session-Cookie
+
 //使用Redis代替文件储存Session...
 <?php
 
